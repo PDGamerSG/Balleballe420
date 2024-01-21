@@ -1,0 +1,137 @@
+body{
+    background-color:#ffffff;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Laila', sans-serif;*/
+
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0 auto;
+    /* 
+    ->  We are using percentage because we want to make
+            the font dynamic with the browser font size,
+            ref: 100% = 16px 
+    ->  We can also use em where 1em = 16px = 100% 
+    
+    Note: font-size are inherited means it will increase size on top
+          of their paraent decided font size, here parent are top-container or body.
+        
+    ->   To ignore parent font size you can use rem like 5rem, it will not inherit parent font size.*/
+
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+
+}
+span{text-decoration: underline;}
+h2{
+    color: #66BFBF;
+    font-size: 2rem;
+    font-weight: normal;
+}
+h3{
+    color: #11999E;
+}
+hr{
+    width: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border:none;
+    border-color: #BDCDD6;
+    border-top-style: dotted;
+    border-block-width: 10px;
+}
+a{
+    color: #11999E;
+    margin: auto 30px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+}
+.top-container{
+    background-color: #ECF9FF;
+    padding-top: 100px;
+    position: relative;
+}
+.middle-container{
+ background-color: #EEEEEE;
+ padding-bottom: 100px;
+}
+.bottom-container{
+    background-color: #95BDFF;
+    font-size: 18px;
+    padding: 30px;
+    line-height: 2;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top:50px
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-name{
+    color: #62CDFF;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align:left;
+    line-height: 2;
+}
+.code-img{
+    float: left;
+    margin-right: 30px;
+}
+.cook-img{
+    float:right;
+    margin-left:30px;
+}
+.contact-me{
+    line-height: 3;
+}
+.contact-para{
+    width: 30%;
+    margin: 20px auto;
+}
+.cc-right{
+    color: white;
+}
+.profile{
+    margin: 0 auto;
+    width: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn {
+    background: #199094;
+    background-image: -webkit-linear-gradient(top, #199094, #55d7db);
+    background-image: -moz-linear-gradient(top, #199094, #55d7db);
+    background-image: -ms-linear-gradient(top, #199094, #55d7db);
+    background-image: -o-linear-gradient(top, #199094, #55d7db);
+    background-image: linear-gradient(to bottom, #199094, #55d7db);
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 9px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #95BDFF;
+    background-image: -webkit-linear-gradient(top, #95BDFF, #B4E4FF);
+    background-image: -moz-linear-gradient(top, #95BDFF, #B4E4FF);
+    background-image: -ms-linear-gradient(top, #95BDFF, #B4E4FF);
+    background-image: -o-linear-gradient(top, #95BDFF, #B4E4FF);
+    background-image: linear-gradient(to bottom, #95BDFF, #B4E4FF);
+    text-decoration: none;
+}
